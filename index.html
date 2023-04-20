@@ -8,11 +8,16 @@
       <center>
           <a href="https://www.foodandwine.com/recipes/khinkali-meat-filled-dumplings">This is my recipe</a>
       </center>
-      
+      <style>
+body {
+  background-image: url('papers.jpg');
+}
+</style>
       <img src="dog.jpg" width = "250px">
       <img src="mike.jpeg" width = "250px">
       <head>
           <style type="text/css">
+    
 .menutitle{
 cursor:pointer;
 margin-bottom: 5px;
@@ -116,13 +121,15 @@ window.onunload=savemenustate
       <!-- Keep all menus within masterdiv-->
 <div id="masterdiv">
 
-	<div class="menutitle" onclick="SwitchMenu('sub1')">Projects</div>
+	<div class="menutitle" onclick="SwitchMenu('sub1')" style="font-size:200%;">Projects</div>
 	<span class="submenu" id="sub1">
-		- <a input type="button" onClick="document.getElementById('rube').scrollIntoView();" /> Rube Goldberg</a><br>
-		- <a input type="button" onClick="document.getElementById('rocket').scrollIntoView();" /> Bottle Rocket</a><br>
-		- <a input type="button" onClick="document.getElementById('bridge').scrollIntoView();" /> Spaghetti Bridge</a><br>
-		- <a input type="button" onClick="document.getElementById('car').scrollIntoView();" /> Arduino Car</a><br>
-		- <a href="hot.htm"></a><br>
+		 <a input type="button" onClick="document.getElementById('rube').scrollIntoView();" style="font-size:200%;" /> -Rube Goldberg (Click to see more)</a><br>
+		 <a input type="button" onClick="document.getElementById('rocket').scrollIntoView();" style="font-size:200%;"/> -Bottle Rocket</a><br>
+		 <a input type="button" onClick="document.getElementById('bridge').scrollIntoView();" style="font-size:200%;"/> -Spaghetti Bridge</a><br>
+		 <a input type="button" onClick="document.getElementById('car').scrollIntoView();" style="font-size:200%;"/> -Arduino Car</a><br>
+		 <a input type="button" onClick="document.getElementById('egg').scrollIntoView();" style="font-size:200%;"/> -Egg Drop</a><br>
+		 <a input type="button" onClick="document.getElementById('boat').scrollIntoView();" style="font-size:200%;"/> -Cardboard Boat</a><br>
+		 <a href="hot.htm"></a><br>
 	</span>
 
 </div>
@@ -382,10 +389,12 @@ window.onunload=savemenustate
         <p style="font-family: optima; font-size: 25px">
             We did not do much this weekend, as the spring break was next week and starting something new would not be comfortable. Altough, we did have a challenge day. This time we built and tested gutter boats. Altough, it was not the best challenge we have had, it was pretty interesting to work on. My boat's performance was not flawless, but it did not do worse than I imagined.
             </p>
-        <img src="boats.jpeg" width = "400px">   
+        <img src="boats.jpeg" width = "400px">
+        <div id="egg">
         <p style="color:blue">
             3/24/2023
         </p>
+        </div>
         <p style="font-family: optima; font-size: 25px">
             Over the spring break I mainly rested. I felt like this week without school was crucial, because the finals and the ap tests are getting close. I also visited a piano concert, it was very impressive. The first week back to school was light. We did not do much, but we started a new small project. We are supposed to make an apparatus that will protect a chicken egg from breaking after falling from a high distance. Below are is the design my group has come up with so far.
             </p>
@@ -401,11 +410,13 @@ window.onunload=savemenustate
             </p>
             <img src="image.jpeg" width = "400px">
             <video width="400" height="600" controls="" loop="">
-          <source src="vidos.MOV" type="video/mp4">
+          <source src="vidos.mov" type="video/mp4">
           </video>
+          <div id="boat">
         <p style="font-family: optima; font-size: 25px">
             We started the Final Project! We are going to build a life size boat using only cardboard and tape. Two of our 4 people group will be crossing the pool in it. The first week we spent on coordinating member jobs and brasinstorming a design. So far, we have a couple of design which we will be making a small replicas of to test next week.
          </p>
+         </div>
          <img src="lodka.png" width = "400px">
          <p style="color:blue">
             4/14/2023
@@ -417,5 +428,14 @@ window.onunload=savemenustate
         <img src="sgrin.png" width = "400px">
         <img src="sgrun.png" width = "400px">
         <img src="bot.jpg" width = "400px">
-        
+        <p style="color:blue">
+            4/20/2023
+        </p>
+        <p style="font-family: optima; font-size: 25px">
+            We finally tested our model. It was a complete failure and couldn't hold 8 pounds as opposed to the expected 40 pounds. We learnt a lesson about stability and balance. Our next desing will be wider to be more stable on the water. Now we are working on designing an improved model and builind the real boat next week. 
+            </p>
+        <img src="blue.jpeg" width = "400px">
+        <video width="400" height="600" controls="" loop="">
+          <source src="blu.MOV" type="video/mp4">
+          </video>
 </html>
